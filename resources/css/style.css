@@ -2,15 +2,16 @@
 /* CSS GENERAL */
 body {
 	background-color: #e0e0e0;
+	font-size: 16px;
 }
 
 .contain {
 	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
 	padding: 0;
 	max-width: 1024px;
 	height: auto;
-	border: 1px solid yellow;
 }
 
 
@@ -67,10 +68,77 @@ header {
 section {
 	border: 1px solid black;
 	display: flex;
-	
+	align-content: center;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	height: 200px;
+	height: auto;
 }
+
+.img_contain {
+	width: 60%;
+	height: 60%;
+	padding: 32px 24px;
+}
+
+.img_contain img {
+	width: 100%;
+	height: 100%;
+}
+
+.info_contain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+	height: 200px;
+	border: 1px solid red;
+}
+
+.info_contain h2 {
+	font-size: 3rem;
+	padding: 8px auto;
+	margin: 4px auto;
+	font-weight: bold;
+	border: 1px solid yellow;
+}
+
+.info_contain h4 {
+	font-size: 1.5rem;
+	padding: 8px auto;
+	margin: 4px auto;
+	font-weight: bold;
+	border: 1px solid blue;
+}
+
+.info_contain .btn {
+	padding: 8px auto;
+	margin: 4px auto;
+	font-weight: bold;
+	background-color: grey;
+	text-align: center;
+	color: white;
+	border: 1px solid purple;
+}
+
+.info_contain .btn a {
+	text-decoration: none;
+	padding: 8px auto;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
