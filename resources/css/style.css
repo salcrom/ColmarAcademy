@@ -1,0 +1,81 @@
+
+/* CSS GENERAL */
+body {
+	background-color: #e0e0e0;
+}
+
+.contain {
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1024px;
+	height: auto;
+	border: 1px solid yellow;
+}
+
+
+/* HEADER */
+
+header {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	width: 100%;
+	height: 64px;
+	margin-top: 5px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 24px;
+	height: 32px;
+}
+
+.logo p {
+	text-transform: uppercase;
+	color: #c0c0c0;
+}
+
+.logo span{
+	color: #808080;
+}
+
+.logo img {
+	height: 32px;
+}
+
+.navigator {
+	display: flex;
+	padding-right: 16px;
+}
+
+
+.navigator ul {
+	display: inline-flex;
+}
+
+.navigator ul a {
+	padding: 0 8px;
+	color: black;
+	text-decoration: none;
+}
+
+/* MAIN */
+
+section {
+	border: 1px solid black;
+	display: flex;
+	
+	width: 100%;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
